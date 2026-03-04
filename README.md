@@ -49,7 +49,7 @@ The psychologist now gets immediate clinical insights instead of spending hours 
 - Real-time polling
 
 ## Impact
-- Saves the psychologist **several hours of manual work per week**
+- Saves the psychologist **hours of manual work**
 - Enables faster and more accurate clinical decision-making
 - Production-ready tool actively used in private practice
 
