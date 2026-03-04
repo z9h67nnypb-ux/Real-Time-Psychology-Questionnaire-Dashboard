@@ -24,17 +24,17 @@ The psychologist now gets immediate clinical insights instead of spending hours 
 ### Main Dashboard (live view)
 ![Main Dashboard](images/dashboard-main.png)
 
-### Individual Submission Cards
-![Submission Cards](images/cards-overview.png)
-
 ### Detail Modal – BDI Example
-![BDI Detail View](images/bdi-detail.png)
+<img width="984" height="1236" alt="image" src="https://github.com/user-attachments/assets/9fad3997-4957-4758-ba48-8c109b7cde8d" />
+
 
 ### Detail Modal – CORE-OM (with percentiles)
-![CORE-OM Detail View](images/coreom-detail.png)
+<img width="968" height="1388" alt="image" src="https://github.com/user-attachments/assets/5c959176-0059-4469-97d3-f5b9d0a99bd9" />
+
 
 ### Detail Modal – GAD Example
-![GAD Detail View](images/gad-detail.png)
+<img width="982" height="1230" alt="image" src="https://github.com/user-attachments/assets/b22520be-408a-490d-ac17-4451b819f311" />
+
 
 ## Technologies
 - **Python** + **Streamlit**
@@ -47,9 +47,6 @@ The psychologist now gets immediate clinical insights instead of spending hours 
 - Saves the psychologist **several hours of manual work per week**
 - Enables faster and more accurate clinical decision-making
 - Production-ready tool actively used in private practice
-
-## Repository
-https://github.com/YOUR-USERNAME/psych-questionnaire-dashboard
 
 ---
 
