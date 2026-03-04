@@ -24,17 +24,22 @@ The psychologist now gets immediate clinical insights instead of spending hours 
 ### Main Dashboard (live view)
 ![Main Dashboard](images/dashboard-main.png)
 
-### Detail Modal – BDI Example
-<img width="984" height="1236" alt="image" src="https://github.com/user-attachments/assets/9fad3997-4957-4758-ba48-8c109b7cde8d" />
+### Detail Modals
 
-
-### Detail Modal – CORE-OM (with percentiles)
-<img width="968" height="1388" alt="image" src="https://github.com/user-attachments/assets/5c959176-0059-4469-97d3-f5b9d0a99bd9" />
-
-
-### Detail Modal – GAD Example
-<img width="982" height="1230" alt="image" src="https://github.com/user-attachments/assets/b22520be-408a-490d-ac17-4451b819f311" />
-
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 12px; margin-top: 20px;">
+  <div style="text-align: center; flex: 1; min-width: 280px;">
+    <strong>BDI Detail View</strong><br>
+    <img src="https://github.com/user-attachments/assets/9fad3997-4957-4758-ba48-8c109b7cde8d" width="300" alt="BDI Example">
+  </div>
+  <div style="text-align: center; flex: 1; min-width: 280px;">
+    <strong>CORE-OM Detail View</strong><br>
+    <img src="https://github.com/user-attachments/assets/5c959176-0059-4469-97d3-f5b9d0a99bd9" width="300" alt="CORE-OM Example">
+  </div>
+  <div style="text-align: center; flex: 1; min-width: 280px;">
+    <strong>GAD Detail View</strong><br>
+    <img src="https://github.com/user-attachments/assets/b22520be-408a-490d-ac17-4451b819f311" width="300" alt="GAD Example">
+  </div>
+</div>
 
 ## Technologies
 - **Python** + **Streamlit**
