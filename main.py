@@ -399,7 +399,7 @@ def four_row(label, total, avg, percentile):
             c3.write(avg)
             c4.write(percentile)
 
-# --- UPDATED DIALOG ---
+#DIALOG CARD
 @st.dialog(" ")
 def show_details(submission_obj: Questionnaire, form_key):
     st.header(f"{submission_obj.patient_name}  |  {form_key}")
@@ -433,11 +433,10 @@ def show_details(submission_obj: Questionnaire, form_key):
 def can_refresh():
     """Checks if we have exceeded 10 manual refreshes in the last 60 seconds."""
     now = time.time()
-    # Cleanup history: keep only timestamps from the last 60 seconds
     st.session_state.refresh_history = [t for t in st.session_state.refresh_history if now - t < 60]
     return len(st.session_state.refresh_history) < 10
 
-# --- 1. DATA SERVICE LAYER ---
+# DATA SERVICE
 class PatientDataService:
     def __init__(self, api_key):
         self.headers = {"Authorization": f"Bearer {api_key}"}
@@ -459,7 +458,7 @@ class PatientDataService:
 
 
 
-# --- 2. CONFIGURATION & SETUP ---
+# CONFIG
 if "api_service" not in st.session_state:
     st.session_state.api_service = PatientDataService(API_KEY)
 
@@ -471,7 +470,7 @@ SERVICE = st.session_state.api_service
 
 st.set_page_config(layout="wide", page_title="Dotazníky")
 
-# --- 3. UI FRAGMENT ---
+#UI FRAGMENT 
 @st.fragment(run_every=INTERVAL)
 def live_patient_grid():
     cols = st.columns(len(FORMS))
@@ -502,7 +501,7 @@ def live_patient_grid():
                     if col_btn.button("👁️", key=f"btn_{sub_json['id']}"):
                         show_details(obj, form_name)
 
-# --- 4. MAIN EXECUTION ---
+# MAIN FUNCTION
 title_col, timer_col = st.columns([2, 1])
 
 with title_col:
