@@ -34,7 +34,7 @@ The psychologist now gets immediate clinical insights instead of spending hours 
   </div>
   <div style="text-align: center; flex: 1; min-width: 280px;">
     <strong>CORE-OM Detail View</strong><br>
-    <img src="https://github.com/user-attachments/assets/5c959176-0059-4469-97d3-f5b9d0a99bd9" width="300" alt="CORE-OM Example">
+    <img width="1346" height="767" alt="Screenshot 2026-03-06 at 22 17 41" src="https://github.com/user-attachments/assets/8842e91e-8bf1-41ed-a685-e801bef6c316" />
   </div>
   <div style="text-align: center; flex: 1; min-width: 280px;">
     <strong>GAD Detail View</strong><br>
