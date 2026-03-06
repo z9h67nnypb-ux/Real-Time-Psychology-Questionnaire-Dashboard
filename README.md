@@ -3,7 +3,8 @@
 **Live web app for a clinical psychologist in Prague**  
 Automatically fetches, scores, and interprets psychological questionnaires the moment patients submit them.
 
-![Dashboard Overview](images/dashboard-main.png)
+
+
 
 ## What It Does
 Patients fill out standard questionnaires (BDI-II, GAD-7, OCD, CORE-OM, BPD) via Tally.so.  
@@ -22,7 +23,7 @@ The psychologist now gets immediate clinical insights instead of spending hours 
 ## Screenshots
 
 ### Main Dashboard (live view)
-![Main Dashboard](images/dashboard-main.png)
+<img width="1346" height="767" alt="Screenshot 2026-03-06 at 22 17 41" src="https://github.com/user-attachments/assets/8842e91e-8bf1-41ed-a685-e801bef6c316" />
 
 ### Detail Modals
 
